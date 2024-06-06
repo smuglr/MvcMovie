@@ -1,4 +1,4 @@
-﻿Sarath Somasekharan Nair(0857114)
+Sarath Somasekharan Nair(0857114)
 Web app created w/ VS2022 .NET 7
 
 
@@ -19,78 +19,45 @@ I tried Part1 of the tutorial is complete, The started with part2
 Part2 - Add a Controller
 
 
+1350
+Commented the default index method which is returning to class view()
+Then added new index method and changed the content to "This is my default action..."
+Ran the program, Confirmed the changes works:
+The URL to confirm
+https://localhost:7261/HelloWorld
 
 
 
+1400
+Added another method called welcome with the content of "This is the Welcome action method..."
+Ran the program, Confirmed the changes works:
+The URL to confirm
+https://localhost:7261/HelloWorld/welcome
 
 
 
+1415
+Change the Welcome method to include two parameters(name,numtimes)
+Ran the program, Confirmed the changes works:
+The URL to confirm
+https://localhost:7261/HelloWorld/welcome?name=sarath&numtimes=4
 
 
 
+1445
+Replace the Welcome method and changed the parameters(name,id)
+Ran the program, Confirmed the changes works:
+The URL to confirm
+https://localhost:7261/HelloWorld/welcome/0857114?name=sarath
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+0853
+alter welcome method without sending any parameter through URL
+Ran the program, Confirmed the changes works:
+The URL to confirm
+https://localhost:7261/HelloWorld/welcome/
 
 
 
@@ -161,14 +128,19 @@ https://localhost:7261/movies/
 
 
 
-
-
-
-
-
 Part 9
 6/6/2024
 
+1455
+
+
 Implemented DRY for better coding 
 Add validation rules for certain Critiria and checked in https://localhost:7061/Movies/Create it's Donee...!!! Hureey
+We review the project's Details and Delete methods.
 
+
+1555
+
+Then last created a git repo and push the file with newly added films and push to the git hub named mvcmovie sucessss....!
+here is  the link
+https://github.com/smuglr/sarath.git
